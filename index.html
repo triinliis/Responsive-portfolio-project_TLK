@@ -30,24 +30,36 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   </head>
   <body>
-    <div class="container">
-      <nav class="d-flex justify-content-between">
-        <ul>
-          <li class="active">
-            <a href="/" title="Homepage"> Home</a>
-          </li>
-          <li>
-            <a href="about.html" title="About Triin"> About</a>
-          </li>
-          <li>
-            <a href="work.html" title="Triin's work"> Work</a>
-          </li>
-          <li>
-            <a href="contact.html" title="Contact Triin"> Contact</a>
-          </li>
-        </ul>
-      </nav>
-    </div>
+    <nav class="navbar navbar-expand-sm navbar-light bg-branding">
+      <div class="container-fluid">
+        <a class="navbar-brand font-weight-bold" href="/" title="Homepage"
+          >Triin Liis Kuhlberg</a
+        >
+        <button
+          class="navbar-toggler"
+          type="button"
+          data-bs-toggle="collapse"
+          data-bs-target="#navbarNavAltMarkup"
+          aria-controls="navbarNavAltMarkup"
+          aria-expanded="false"
+          aria-label="Toggle navigation"
+        >
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+          <div class="navbar-nav ms-auto">
+            <a class="nav-link active" aria-current="page" href="/index.html"
+              >Home</a
+            >
+            <a class="nav-link" href="about.html" title="About Triin">About</a>
+            <a class="nav-link" href="work.html" title="Triin's Work">Work</a>
+            <a class="nav-link" href="contact.html" title="Contact Triin"
+              >Contact</a
+            >
+          </div>
+        </div>
+      </div>
+    </nav>
     <div class="hero">
       <p>🙋🏼‍♀️ Hello, I'm</p>
       <h1>Triin Liis Kuhlberg</h1>
