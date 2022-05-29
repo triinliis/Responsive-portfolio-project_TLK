@@ -146,11 +146,20 @@ footer .contact-box p {
 
 footer .email-link {
   text-decoration: none;
-  text-decoration-color: black;
+  color: black;
   font-size: 24px;
 }
 
 footer .email-link:hover {
+  color: var(--branding-color);
+}
+
+footer .git-link {
+  text-decoration: none;
+  color: black;
+}
+
+footer .git-link:hover {
   color: var(--branding-color);
 }
 
