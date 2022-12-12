@@ -30,6 +30,38 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   </head>
   <body>
+    <nav class="navbar navbar-expand-sm navbar-light bg-branding">
+      <div class="container-fluid">
+        <a
+          class="navbar-brand font-weight-bold"
+          href="index.html"
+          title="Homepage"
+          >Triin Liis Kuhlberg</a
+        >
+        <button
+          class="navbar-toggler"
+          type="button"
+          data-bs-toggle="collapse"
+          data-bs-target="#navbarNavAltMarkup"
+          aria-controls="navbarNavAltMarkup"
+          aria-expanded="false"
+          aria-label="Toggle navigation"
+        >
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+          <div class="navbar-nav ms-auto">
+            <a class="nav-link" href="index.html" title="Homepage">Home</a
+              >
+            <a class="nav-link" href="about.html" title="About Triin">About</a>
+            <a class="nav-link" href="work.html" title="Triin's Work">Work</a>
+            <a class="nav-link  active" aria-current="page" href="contact.html" title="Contact Triin"
+              >Contact</a
+            >
+          </div>
+        </div>
+      </div>
+    </nav>
     <div class="content-container container">
       <div class="content">
         <h1 class="mb-5">Let's get in touch!</h1>
@@ -45,5 +77,61 @@
         </p>
       </div>
     </div>
+    <footer>
+      <div class="contact-box justify-content-between mb-5 d-none d-md-flex">
+        <div>
+          <h3>Work Inquiry</h3>
+          <p class="text-muted">Let's work together</p>
+        </div>
+        <div>
+          <a
+            href="contact.html"
+            class="btn btn-branding mt-3"
+            title="Contact Triin"
+          >
+            Contact me
+          </a>
+        </div>
+      </div>
+      <div class="d-flex justify-content-center mb-5">
+        <a
+          href="mailto:triinberg@gmail.com"
+          class="email-link"
+          title="Email Triin"
+        >
+          triinberg@gmail.com
+        </a>
+      </div>
+      <div class="social-links d-flex justify-content-center">
+        <a
+          href="https://github.com/triinliis"
+          target="_blank"
+          title="Triin's GitHub Profile"
+        >
+          <i class="fab fa-github"></i>
+        </a>
+        <a
+          href="https://www.instagram.com/liizbe/"
+          target="_blank"
+          title="Triin's Instagram Profile"
+        >
+          <i class="fab fa-instagram"></i>
+        </a>
+        <a
+          href="https://www.linkedin.com/in/triin-liis-kuhlberg-a5733052/"
+          target="_blank"
+          title="Triin's LinkedIn Profile"
+        >
+          <i class="fab fa-linkedin"></i>
+        </a>
+      </div>
+      <p class="text-center mt-5">
+        This website is
+        <a href="https://github.com/triinliis" target="_blank" class="git-link"
+          >open-source</a
+        >
+        and coded by <strong>Triin Liis Kuhlberg</strong>
+      </p>
+    </footer>
   </body>
 </html>
